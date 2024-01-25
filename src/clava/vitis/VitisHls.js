@@ -1,8 +1,8 @@
 "use strict";
 
 laraImport("lara.util.ProcessExecutor");
-laraImport("clava.xilinx.XilinxApp");
-laraImport("clava.xilinx.VitisHlsReportParser");
+laraImport("clava.vitis.XilinxApp");
+laraImport("clava.vitis.VitisHlsReportParser");
 
 class VitisHls extends XilinxApp {
     topFunction;
